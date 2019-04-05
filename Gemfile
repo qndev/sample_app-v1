@@ -5,6 +5,7 @@ ruby "2.6.1"
 
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.2"
+gem "sqlite3"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", "3.2.0"
 gem "coffee-rails", "~> 4.2"
@@ -14,8 +15,9 @@ gem "jbuilder", "~> 2.5"
 gem "bootsnap", ">= 1.1.0", require: false
 
 group :development, :test do
-  gem "sqlite3", "1.3.13"
-  gem "byebug",  "9.0.6", platform: :mri
+  gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "capybara", "~> 2.13"
+  gem "selenium-webdriver"
 end
 
 group :development do
