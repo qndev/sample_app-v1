@@ -5,6 +5,7 @@ ruby "2.6.1"
 
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.2"
+gem "bcrypt", "3.1.12"
 gem "sqlite3"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", "3.2.0"

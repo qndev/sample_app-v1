@@ -37,7 +37,6 @@ en:
       header_title: "Sample App"
     about:
       title: "About"
-
       content_html: 'The <a href="https://www.railstutorial.org/"><em>Ruby on Rails
       Tutorial</em></a> is a
       <a href="https://www.railstutorial.org/book">book</a> and
